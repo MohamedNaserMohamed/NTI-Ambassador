@@ -17,7 +17,8 @@
     padding-top: 10px;
     text-transform: uppercase;
 }
-.links_list{
+
+.links_list {
     display: flex;
     justify-content: space-between;
     width: 30vw;
@@ -28,7 +29,7 @@
     font-weight: 500;
 }
 
-.header li{
+.header li {
     cursor: pointer;
 }
 
@@ -62,7 +63,7 @@ li:hover {
 .search_button {
     background-color: transparent;
     border: none;
-    padding:0.54vw;
+    padding: 0.54vw;
     cursor: pointer;
 }
 
@@ -206,10 +207,11 @@ hr {
     max-width: 500px;
     transition: transform 0.5s ease;
 
-    
+
 }
+
 .d_tracks_content .d_tracks_content_pic:hover,
-.a_tracks_content .a_tracks_content_pic:hover{
+.a_tracks_content .a_tracks_content_pic:hover {
     transform: scale(1.02);
 }
 
@@ -255,7 +257,7 @@ hr {
 .t_hidden_pic.show {
     max-height: 600px;
     opacity: 1;
-    transition: max-height 1s ease-in-out, opacity 1s ease-in-out ,transform 0.5s ease;
+    transition: max-height 1s ease-in-out, opacity 1s ease-in-out, transform 0.5s ease;
 }
 
 .toggle_btn:hover,
@@ -267,143 +269,42 @@ hr {
     transition: opacity 1s ease, height 1 ease-in-out;
 }
 
+@media (max-width: 750px) {
 
+    /* start  heading section */
 
-/* responsive */
-
-/* للشاشات الأصغر من 768px (الهواتف الذكية والأجهزة اللوحية الصغيرة) */
-@media (max-width: 768px) {
     .header {
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-    }
+        font-size: 0.97vw;
 
-    .header img {
-        width: 18vw;
-        height: 18vw;
     }
 
     .links_list {
-        width: 80vw;
-        justify-content: space-around;
+        width: 30vw;
         color: red;
+    }
+/* 
+    .header img {
+        width: 4.3vw;
+        height: 4.3vw;
+
     }
 
     .search_input {
-        width: 60vw;
-        font-size: 3.5vw;
+        padding: 0.54vw;
+        font-size: 0.86vw;
+
+        width: 10vw;
+        border-radius: 0.22vw;
+
+    }
+
+    .search_button {
+        padding: 0.54vw;
     }
 
     .search_button img {
-        width: 4vw;
-        height: 4vw;
-    }
+        width: 1.07vw;
+        height: 1.07vw;
+    } */
 
-    .section_1 {
-        flex-direction: column;
-        margin: 50px 5vw;
-        width: 90vw;
-    }
-
-    .media_txt {
-        margin: 0;
-        text-align: center;
-    }
-
-    .media_txt .txt_title {
-        font-size: 8vw;
-    }
-
-    .media_txt .txt_info {
-        font-size: 4vw;
-        margin: 10px 0;
-    }
-
-    .section_1 .sec_1_pic img {
-        width: 80vw;
-    }
-
-    .v_i_s_box {
-        flex-direction: column;
-        height: auto;
-        width: 100vw;
-        padding: 5vw 0;
-    }
-
-    .v_i_s_box .v_i_s_img img {
-        width: 80vw;
-        height: auto;
-        margin-left: 0;
-    }
-
-    .v_i_s_box .v_i_s_txt {
-        width: 90vw;
-        margin: 20px auto;
-    }
-
-    .v_i_s_box .v_i_s_txt .txt_v_i_s_txt {
-        font-size: 5vw;
-        text-align: center;
-    }
-
-    .v_i_s_box .v_i_s_txt .txt_v_i_s_social a img {
-        width: 8vw;
-        margin: 10px;
-    }
-
-    hr {
-        width: 60vw;
-    }
-
-    .d_tracks_txt,
-    .a_tracks_txt {
-        font-size: 7vw;
-    }
-
-    .d_tracks_content,
-    .a_tracks_content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .d_tracks_content .d_tracks_content_pic img,
-    .a_tracks_content .a_tracks_content_pic img {
-        width: 90vw;
-        height: auto;
-    }
-
-    .toggle_btn,
-    .t_toggle_btn {
-        width: 40vw;
-        font-size: 5vw;
-    }
-}
-
-/* للشاشات الأصغر من 480px (الهواتف الصغيرة) */
-@media (max-width: 480px) {
-    .media_txt .txt_title {
-        font-size: 10vw;
-        color: green;
-    }
-
-    .media_txt .txt_info {
-        font-size: 5vw;
-    }
-
-    .header img {
-        width: 20vw;
-        height: 20vw;
-    }
-
-    .toggle_btn,
-    .t_toggle_btn {
-        width: 60vw;
-        font-size: 4vw;
-    }
-
-    .d_tracks_txt,
-    .a_tracks_txt {
-        font-size: 10vw;
-    }
 }
