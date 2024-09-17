@@ -274,7 +274,7 @@ hr {
     /* start  heading section */
 
     .header {
-        font-size: 1.2vw;
+        font-size: 1.8vw;
     }
 
     .links_list {
@@ -282,16 +282,13 @@ hr {
     }
 
     .header img {
-        width:7vw;
-        height: 7vw;
+        width:8vw;
+        height: 8vw;
 
     }
 
     .search_input {
-        padding: 0.54vw;
-        width: 15vw;
-        border-radius: 0.22vw;
-
+        width: 18vw;
     }
 
     .search_button {
@@ -299,8 +296,8 @@ hr {
     }
 
     .search_button img {
-        width: 1.5vw;
-        height: 1.5vw;
+        width: 2vw;
+        height: 2vw;
     }
 
  /*  */
@@ -324,31 +321,31 @@ hr {
     
     .d_tracks_content .d_tracks_content_pic,
     .a_tracks_content .a_tracks_content_pic {
-        max-width: 34vw;
+        max-width: 50vw;
     }
     .d_tracks_content .d_tracks_content_pic img,
     .a_tracks_content .a_tracks_content_pic img {
         border-radius: 20px;
-        width: 33vw;
-        height: 33vw;
+        width: 50vw;
+        height:50vw;
     }
     
     .d_tracks_content .d_tracks_content_pic {
-        font-size: 2vw;
+        font-size: 4vw;
         font-weight: 600;
     }
     
     .toggle_btn,
     .t_toggle_btn {
-        width: 14vw;
-        font-size: 2vw;
+        width: 24vw;
+        font-size:9vw;
         border-radius: 1.07vw;
-        margin-left: calc(50% - 7vw);
+        margin-left: calc(50% - 12vw);
     }
     
     
     .hidden_pic.show,
     .t_hidden_pic.show {
-        max-height:33vw;
+        max-height:52vw;
     }
 }
