@@ -17,14 +17,19 @@
     padding-top: 10px;
     text-transform: uppercase;
 }
-
-.header li {
-    display: inline-flex;
+.links_list{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    text-align: center;
     color: #110d0d;
     list-style: none;
-    margin-left: 2.15vw;
+    transition: transform 0.2s ease;
+    font-weight: 500;
+}
+
+.header li{
     cursor: pointer;
-    text-align: center;
 }
 
 .header img {
@@ -34,7 +39,10 @@
 }
 
 li:hover {
-    color: rgb(0, 217, 255)
+    color: rgb(19, 220, 255);
+
+
+
 }
 
 .search_form {
@@ -46,6 +54,7 @@ li:hover {
     padding: 0.54vw;
     font-size: 0.86vw;
     border: 0.054vw solid #ccc;
+    width: 10vw;
     border-radius: 0.22vw;
     outline: none;
 }
