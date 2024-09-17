@@ -266,3 +266,142 @@ hr {
     cursor: pointer;
     transition: opacity 1s ease, height 1 ease-in-out;
 }
+
+
+
+/* responsive */
+
+/* للشاشات الأصغر من 768px (الهواتف الذكية والأجهزة اللوحية الصغيرة) */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .header img {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .links_list {
+        width: 80vw;
+        justify-content: space-around;
+    }
+
+    .search_input {
+        width: 60vw;
+        font-size: 3.5vw;
+    }
+
+    .search_button img {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .section_1 {
+        flex-direction: column;
+        margin: 50px 5vw;
+        width: 90vw;
+    }
+
+    .media_txt {
+        margin: 0;
+        text-align: center;
+    }
+
+    .media_txt .txt_title {
+        font-size: 8vw;
+    }
+
+    .media_txt .txt_info {
+        font-size: 4vw;
+        margin: 10px 0;
+    }
+
+    .section_1 .sec_1_pic img {
+        width: 80vw;
+    }
+
+    .v_i_s_box {
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+        padding: 5vw 0;
+    }
+
+    .v_i_s_box .v_i_s_img img {
+        width: 80vw;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .v_i_s_box .v_i_s_txt {
+        width: 90vw;
+        margin: 20px auto;
+    }
+
+    .v_i_s_box .v_i_s_txt .txt_v_i_s_txt {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .v_i_s_box .v_i_s_txt .txt_v_i_s_social a img {
+        width: 8vw;
+        margin: 10px;
+    }
+
+    hr {
+        width: 60vw;
+    }
+
+    .d_tracks_txt,
+    .a_tracks_txt {
+        font-size: 7vw;
+    }
+
+    .d_tracks_content,
+    .a_tracks_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d_tracks_content .d_tracks_content_pic img,
+    .a_tracks_content .a_tracks_content_pic img {
+        width: 90vw;
+        height: auto;
+    }
+
+    .toggle_btn,
+    .t_toggle_btn {
+        width: 40vw;
+        font-size: 5vw;
+    }
+}
+
+/* للشاشات الأصغر من 480px (الهواتف الصغيرة) */
+@media (max-width: 480px) {
+    .media_txt .txt_title {
+        font-size: 10vw;
+    }
+
+    .media_txt .txt_info {
+        font-size: 5vw;
+    }
+
+    .header img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .toggle_btn,
+    .t_toggle_btn {
+        width: 60vw;
+        font-size: 4vw;
+    }
+
+    .d_tracks_txt,
+    .a_tracks_txt {
+        font-size: 10vw;
+    }
+}
