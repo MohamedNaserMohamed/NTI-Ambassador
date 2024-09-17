@@ -340,15 +340,15 @@ hr {
     
     .toggle_btn,
     .t_toggle_btn {
-        width: 9.6vw;
-        font-size: 1.6vw;
+        width: 14vw;
+        font-size: 2vw;
         border-radius: 1.07vw;
-        margin-left: calc(50% - 4.8vw);
+        margin-left: calc(50% - 7vw);
     }
     
     
     .hidden_pic.show,
     .t_hidden_pic.show {
-        max-height:26vw;
+        max-height:33vw;
     }
 }
