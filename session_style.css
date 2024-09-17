@@ -89,7 +89,7 @@ li:hover {
 }
 
 .media_txt .txt_title {
-    font-size: 4.9vw;
+    font-size: 4vw;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 800;
     text-transform: capitalize;
@@ -198,13 +198,13 @@ hr {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 30px 15%;
+    margin: 30px 15vw;
 }
 
 .d_tracks_content .d_tracks_content_pic,
 .a_tracks_content .a_tracks_content_pic {
     margin: 20px auto;
-    max-width: 500px;
+    max-width: 26vw;
     transition: transform 0.5s ease;
 
 
@@ -219,13 +219,13 @@ hr {
 .d_tracks_content .d_tracks_content_pic img,
 .a_tracks_content .a_tracks_content_pic img {
     border-radius: 20px;
-    width: 500px;
-    height: 500px;
+    width: 26vw;
+    height: 26vw;
 
 }
 
 .d_tracks_content .d_tracks_content_pic {
-    font-size: 30px;
+    font-size: 1.6vw;
     text-align: center;
     text-transform: capitalize;
     color: rgb(1, 146, 213);
@@ -234,15 +234,15 @@ hr {
 
 .toggle_btn,
 .t_toggle_btn {
-    width: 180px;
+    width: 9.6vw;
     background-color: #0165d0;
-    font-size: 30px;
+    font-size: 1.6vw;
     color: #cddbe0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 20px;
     border: 2px solid #ffffff;
     transition: transform 0.6s ease;
-    margin-left: calc(50% - 90px);
+    margin-left: calc(50% - 4.8vw);
 }
 
 .hidden_pic,
@@ -255,7 +255,7 @@ hr {
 
 .hidden_pic.show,
 .t_hidden_pic.show {
-    max-height: 600px;
+    max-height: 32vw;
     opacity: 1;
     transition: max-height 1s ease-in-out, opacity 1s ease-in-out, transform 0.5s ease;
 }
@@ -269,42 +269,86 @@ hr {
     transition: opacity 1s ease, height 1 ease-in-out;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 650px) {
 
     /* start  heading section */
 
     .header {
-        font-size: 0.97vw;
-
+        font-size: 1.2vw;
     }
 
     .links_list {
-        width: 30vw;
-        color: red;
+        width: 50vw;
     }
-/* 
+
     .header img {
-        width: 4.3vw;
-        height: 4.3vw;
+        width:7vw;
+        height: 7vw;
 
     }
 
     .search_input {
         padding: 0.54vw;
-        font-size: 0.86vw;
-
-        width: 10vw;
+        width: 15vw;
         border-radius: 0.22vw;
 
     }
 
     .search_button {
-        padding: 0.54vw;
+        padding: 1vw;
     }
 
     .search_button img {
-        width: 1.07vw;
-        height: 1.07vw;
-    } */
+        width: 1.5vw;
+        height: 1.5vw;
+    }
 
+ /*  */
+
+    .d_tracks_box,
+    .a_tracks_box {
+       flex-wrap: wrap;
+    }
+    
+    .d_tracks_txt,
+    .a_tracks_txt {
+        text-align: center;
+        margin: 2vw auto;
+        font-size:3vw;
+    }
+    
+    .d_tracks_content,
+    .a_tracks_content {
+        margin: 20px auto;
+    }
+    
+    .d_tracks_content .d_tracks_content_pic,
+    .a_tracks_content .a_tracks_content_pic {
+        max-width: 26vw;
+    }
+    .d_tracks_content .d_tracks_content_pic img,
+    .a_tracks_content .a_tracks_content_pic img {
+        border-radius: 20px;
+        width: 26vw;
+        height: 26vw;
+    }
+    
+    .d_tracks_content .d_tracks_content_pic {
+        font-size: 1.5vw;
+        font-weight: 600;
+    }
+    
+    .toggle_btn,
+    .t_toggle_btn {
+        width: 9.6vw;
+        font-size: 1.6vw;
+        border-radius: 1.07vw;
+        margin-left: calc(50% - 4.8vw);
+    }
+    
+    
+    .hidden_pic.show,
+    .t_hidden_pic.show {
+        max-height:26vw;
+    }
 }
