@@ -175,7 +175,7 @@ hr {
     border: none;
     height: 2px;
     background-color: rgba(0, 0, 0, 0.537);
-    margin: 140px auto auto;
+    margin:11vw auto ;
 }
 
 
@@ -311,7 +311,7 @@ hr {
     text-align: center;
    flex-direction: column;
   justify-content: center;  
-  margin: 150px 24vw;
+   margin: 150px 24vw;
     width: 52vw;
 }
 
@@ -321,7 +321,7 @@ hr {
 }
 
 .media_txt .txt_title {
-    font-size: 6vw;
+    font-size: 9vw;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 800;
     text-transform: capitalize;
@@ -329,7 +329,7 @@ hr {
 }
 
 .media_txt .txt_info {
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 400;
     margin: 1.07vw auto auto 1.6vw;
