@@ -8,9 +8,9 @@
 .header {
     display: flex;
     justify-content: space-around;
-    background-color: white;
+    background-color: rgb(53, 52, 52);
     color: #110d0d;
-    height: 100px;
+    height: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.97vw;
     align-items: center;
@@ -79,7 +79,7 @@ li:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 150px 10vw;
+    margin: 100px 10vw;
     width: 80vw;
 }
 
@@ -115,7 +115,7 @@ li:hover {
 .v_i_s_box {
     background-color: #292E3B;
     height: 34.85vw;
-    width: 99.24vw;
+    width: 99.23vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -190,7 +190,7 @@ hr {
 .a_tracks_txt {
     text-align: center;
     margin: 50px auto;
-    font-size: 60px;
+    font-size: 3vw;
 }
 
 .d_tracks_content,
@@ -198,13 +198,13 @@ hr {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 30px 15vw;
+    margin: 10px 10vw;
 }
 
 .d_tracks_content .d_tracks_content_pic,
 .a_tracks_content .a_tracks_content_pic {
-    margin: 20px auto;
-    max-width: 26vw;
+    margin: 20px auto auto;
+    max-width: 23vw;
     transition: transform 0.5s ease;
 
 
@@ -219,8 +219,8 @@ hr {
 .d_tracks_content .d_tracks_content_pic img,
 .a_tracks_content .a_tracks_content_pic img {
     border-radius: 20px;
-    width: 26vw;
-    height: 26vw;
+    width: 23vw;
+    height: 23vw;
 
 }
 
