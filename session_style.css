@@ -324,17 +324,17 @@ hr {
     
     .d_tracks_content .d_tracks_content_pic,
     .a_tracks_content .a_tracks_content_pic {
-        max-width: 26vw;
+        max-width: 34vw;
     }
     .d_tracks_content .d_tracks_content_pic img,
     .a_tracks_content .a_tracks_content_pic img {
         border-radius: 20px;
-        width: 26vw;
-        height: 26vw;
+        width: 33vw;
+        height: 33vw;
     }
     
     .d_tracks_content .d_tracks_content_pic {
-        font-size: 1.5vw;
+        font-size: 2vw;
         font-weight: 600;
     }
     
