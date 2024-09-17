@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sessions</title>
+    <link rel="stylesheet" href="session_style.css">
+</head>
+
+<body>
+    <!-- Start Heading Section -->
+    <div class="header">
+        <div class="logo_h">
+            <img src="./media/NTI_Ambassadors_logo.jpg" alt="NTI">
+        </div>
+        <div class="links_list">
+            <li href="./Home.html">home</a>
+            <li href="">branches</li>
+            <li href="">about us</li>
+            <li href="">sessions</li>
+            <li href="">events</li>
+            <li href="">contact</li>
+        </div>
+
+        <form action="AAAAAAAAAAAA" method="GET" class="search_form">
+            <input type="text" placeholder="search   " name="query" class="search_input">
+            <button type="submit" class="search_button">
+                <img src="./media/search_icon.jpeg" alt="Search">
+            </button>
+        </form>
+
+    </div>
+
+    <!-- End Header Section  -->
+
+
+
+    <!-- First Section start -->
+
+    <div class="section_1">
+        <div class="media_txt">
+            <div class="txt_title">
+                media page
+            </div>
+            <div class="txt_info">
+                The media team in the volunteer group for the National Telecommunications Institute documents the tracks
+                by recording sessions and videos. They also create content explaining the importance of the tracks and
+                the benefits students gain. The team promotes the tracks on the Facebook page by sharing videos and
+                photos to engage followers. Additionally, they interact with the audience by responding to inquiries and
+                sharing regular updates.
+            </div>
+        </div>
+        <div class="sec_1_pic">
+            <img src="./media/Logo.png" alt="NTI_Ambassadors">
+        </div>
+    </div>
+    <!-- First Section end -->
+
+    <!-- visual identity section start -->
+
+    <div class="v_i_s_box">
+        <div class="v_i_s_img">
+            <img src="./media/v_i.png" alt="">
+            <img src="./media/v_i.png" alt="">
+        </div>
+        <div class="v_i_s_txt">
+            <div class="txt_v_i_s_txt">
+                Creating the visual identity for the team and its pages on Facebook and LinkedIn.
+            </div>
+            <div class="txt_v_i_s_social">
+                <a href="https://www.facebook.com/profile.php?id=61557539050463&locale=ar_AR"><img
+                        src="./media/facebook.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/nti-qena-ambassadors/"><img
+                        src="./media/LinkedIn_icon.svg.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- visual identity section end -->
+
+    <hr>
+
+    <!--Documenting the tracks start -->
+
+    <div class="d_tracks_box">
+        <div class="d_tracks_txt">
+            Documenting the tracks through photos and videos
+        </div>
+        <div class="d_tracks_content">
+            <!-- visible pics -->
+            <div class="visible_pic d_tracks_content_pic">
+                <img src="./media/456433290_122150672294251301_8751203371164175971_n.jpg" alt="">
+                <span class="traks_txt"> XXXXXXXXXXXXXXXX </span>
+            </div>
+            <div class="visible_pic d_tracks_content_pic">
+                <img src="./media/456661071_122151487154251301_3764014847919243712_n.jpg" alt="">
+                <span class="traks_txt"> XXXXXXXXXXXXXXXX </span>
+
+            </div>
+            <!-- hidden pics -->
+            <div class="hidden_pic d_tracks_content_pic">
+                <img src="./media/456764687_122151486788251301_3718264222113074510_n.jpg" alt="">
+                <span class="traks_txt"> XXXXXXXXXXXXXXXX </span>
+            </div>
+            <div class="hidden_pic d_tracks_content_pic">
+                <img src="./media/20240721_141228.jpg" alt="">
+                <span class="traks_txt"> XXXXXXXXXXXXXXXX </span>
+            </div>
+            <div class="hidden_pic d_tracks_content_pic">
+                <img src="./media/20240721_160259.jpg" alt="">
+                <span class="traks_txt"> XXXXXXXXXXXXXXXX </span>
+            </div>
+            <div class="hidden_pic d_tracks_content_pic">
+                <img src="./media/20240723_121428.jpg" alt="">
+                <span class="traks_txt"> XXXXXXXXXXXXXXXX </span>
+            </div>
+
+
+        </div>
+        <button class="toggle_btn" onclick="toggleDivs()">Show more</button>
+    </div>
+
+
+    <!--Documenting the tracks end-->
+
+
+
+
+
+    <hr>
+
+    <!--available tracks start -->
+
+    <div class="a_tracks_box">
+        <div class="a_tracks_txt">
+            Documenting the tracks through photos and videos
+        </div>
+        <div class="a_tracks_content">
+            <!-- visible pics -->
+            <div class="t_visible_pic a_tracks_content_pic">
+                <img src="./media/456433290_122150672294251301_8751203371164175971_n.jpg" alt="">
+            </div>
+            <div class="t_visible_pic a_tracks_content_pic">
+                <img src="./media/456433290_122150672294251301_8751203371164175971_n.jpg" alt="">
+            </div>
+            <!-- hidden pics -->
+            <div class="t_hidden_pic a_tracks_content_pic">
+                <img src="./media/456433290_122150672294251301_8751203371164175971_n.jpg" alt="">
+            </div>
+            <div class="t_hidden_pic a_tracks_content_pic">
+                <img src="./media/456433290_122150672294251301_8751203371164175971_n.jpg" alt="">
+            </div>
+
+        </div>
+        <button class="t_toggle_btn" onclick="t_toggleDivs()">Show more</button>
+    </div>
+
+
+
+    <!--available tracks end-->
+
+
+    <script>
+
+        const toggleButton = document.querySelector('.toggle_btn');
+        const contentDivs = document.querySelectorAll('.hidden_pic');
+        let isShowingMore = false;
+        toggleButton.addEventListener('click', function () {
+            isShowingMore = !isShowingMore;
+
+
+            contentDivs.forEach(div => {
+                if (isShowingMore) {
+                    div.classList.add('show');
+                } else {
+                    div.classList.remove('show');
+                }
+            });
+
+            toggleButton.textContent = isShowingMore ? 'Show Less' : 'Show More';
+        });
+
+
+
+
+        const t_toggleButton = document.querySelector('.t_toggle_btn');
+        const t_contentDivs = document.querySelectorAll('.t_hidden_pic');
+        let t_isShowingMore = false;
+        t_toggleButton.addEventListener('click', function () {
+
+            t_isShowingMore = !t_isShowingMore;
+
+
+            t_contentDivs.forEach(div => {
+                if (t_isShowingMore) {
+                    div.classList.add('show');
+                } else {
+                    div.classList.remove('show');
+                }
+            });
+
+            t_toggleButton.textContent = t_isShowingMore ? 'Show Less' : 'Show More';
+        });
+    </script>
+
+
+</body>
+
+</html>
