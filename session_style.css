@@ -280,13 +280,14 @@ hr {
     }
 
     .header img {
-        width: 12vw;
-        height: 12vw;
+        width: 18vw;
+        height: 18vw;
     }
 
     .links_list {
         width: 80vw;
         justify-content: space-around;
+        color: red;
     }
 
     .search_input {
@@ -383,6 +384,7 @@ hr {
 @media (max-width: 480px) {
     .media_txt .txt_title {
         font-size: 10vw;
+        color: green;
     }
 
     .media_txt .txt_info {
