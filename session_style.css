@@ -8,13 +8,13 @@
 .header {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(53, 52, 52);
+    background-color:#eee;
     color: #110d0d;
-    height: 50px;
+    height: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.97vw;
     align-items: center;
-    padding-top: 10px;
+    padding: 10px auto ;
     text-transform: uppercase;
 }
 
